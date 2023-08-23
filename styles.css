@@ -48,3 +48,62 @@ button{
     border: none;
     border-radius: 4px;
 }
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 250px;
+    margin-bottom: 250px;
+}
+.img-text{
+    display: inline-flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+
+}
+
+img.quote{
+    width: 200px;
+    height: 250px;
+    flex:0;
+}
+
+.top-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.top .quotee{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.middle{
+    background-color: #E5E7EB;
+}
+
+.middle .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.middle .quotee{
+    font-weight: 700;
+    font-style: italic;
+    color: #1F2937;
+    text-align: right;
+    padding: 0 250px 100px 0;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 10px 0;   
+}
