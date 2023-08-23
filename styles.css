@@ -30,13 +30,13 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-.hero .main-text{
+.main-text{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: -10px;
 }
-.hero .subtext{
+.subtext{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -47,6 +47,8 @@ button{
     font-weight: 600;
     border: none;
     border-radius: 4px;
+    min-width: 100px;
+    max-height: 30px;
 }
 .top-container{
     display: flex;
@@ -100,10 +102,31 @@ img.quote{
     text-align: right;
     padding: 0 250px 100px 0;
 }
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 75px;
+    background-color: #3882F6;
+    margin: 75px 250px 75px 250px;
+    border-radius: 4px;
+}
 
 .footer{
     background-color: #1F2937;
     text-align: center;
     color: #E5E7EB;
     padding: 10px 0;   
+}
+
+.bottom .signup {
+    border: 2px solid #E5E7EB;
+    margin: 70 0;
+}
+
+.bottom .main-text{
+font-size: 24px;
+}
+.bottom button{
+    margin: 30px 0;
+    
 }
